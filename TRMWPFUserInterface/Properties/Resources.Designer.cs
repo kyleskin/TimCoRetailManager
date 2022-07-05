@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TRMWPFUserInterface.Properties
+namespace TRMDesktopUI.Properties
 {
 
 

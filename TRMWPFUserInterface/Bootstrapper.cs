@@ -4,10 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using TRMWPFUserInterface.Helpers;
-using TRMWPFUserInterface.ViewModels;
+using TRMDesktopUI.Helpers;
+using TRMDesktopUI.Library.Api;
+using TRMDesktopUI.Library.Helpers;
+using TRMDesktopUI.Library.Models;
+using TRMDesktopUI.ViewModels;
 
-namespace TRMWPFUserInterface
+namespace TRMDesktopUI
 {
     public class Bootstrapper : BootstrapperBase
     {
@@ -30,6 +33,7 @@ namespace TRMWPFUserInterface
             _container
                 .Singleton<IWindowManager, WindowManager>()
                 .Singleton<IEventAggregator, EventAggregator>()
+                .Singleton<ILoggedInUserModel, LoggedInUserModel>()
                 .Singleton<IAPIHelper, APIHelper>();
 
             GetType().Assembly.GetTypes()

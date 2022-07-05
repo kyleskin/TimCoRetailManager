@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Caliburn.Micro;
 
-namespace TRMWPFUserInterface.ViewModels
+namespace TRMDesktopUI.ViewModels
 {
     public class ShellViewModel : Conductor<object>
     {

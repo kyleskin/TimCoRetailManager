@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace TRMWPFUserInterface.Helpers
+namespace TRMDesktopUI.Helpers
 {
     public static class PasswordBoxHelper
     {
